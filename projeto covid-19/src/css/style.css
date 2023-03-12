@@ -1,0 +1,86 @@
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: url(/src/images/coronavirus-lp-small.svg);
+    background-image: url(/src/images/coronavirus-low-opacity.svg);
+}
+
+.cabecalho .logo{
+    display: flex;
+    margin-top: 70px;
+}
+
+.navegacoes.contato{
+    border: solid;
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    border-color: red;
+    color: red;
+}
+
+.navegacoes.contato:hover{
+    background-color: red;
+    color: aliceblue;
+}
+
+.navegacoes:hover{
+    color: red;
+}
+
+.navegacoes.visao-geral{
+    color: red;
+}
+
+.cabecalho nav{
+    float: right;
+}
+
+.cabecalho nav li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 7px;
+    margin-left: 50px;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:15%;
+}
+
+.informacoes .subtitulo{
+    font-size: 30px;
+    color: red;
+}
+
+.informacoes .titulo{
+    font-size: 50px;
+    color: steelblue;
+    width: 49%;
+}
+
+.informacoes .paragrafo{
+    font-size: 24px;
+    width: 30%;
+    margin-top: 15px;
+}
+
+.informacoes .botao{
+    margin-top: 30px;
+    width: 20%;
+    border: 2px solid;
+    border-radius: 50px;
+    border-color: red;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.informacoes .imagem{
+    position: absolute;
+    width: 50%;
+    transform: translateX(50%);
+}
